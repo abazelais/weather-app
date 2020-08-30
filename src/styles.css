@@ -52,7 +52,7 @@ li {
     border-radius: 15px;
 }
 
-#github {
+.github {
   text-align: center;
   margin: 0 auto;
   display: block;
