@@ -53,7 +53,7 @@ li {
 }
 
 #github {
-  text-align: right;
+  text-align: center;
   margin: 0 auto;
-  display: inline;
+  display: block;
 }
