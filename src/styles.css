@@ -1,0 +1,53 @@
+body {
+  font-family: "Finger Paint", cursive;
+  color: #31a5ba;
+}
+
+h1 {
+  color: #e9c4f8;
+  display: block;
+  font-size: 30px;
+  font-weight: 300px;
+  line-height: 28.8px;
+  text-align: left;
+  margin: 0;
+}
+
+ul {
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  display: block;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 19.2px;
+  text-align: left;
+}
+
+.weather-app {
+  border: 2px solid;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 78%);
+  padding: 20px;
+  margin: 25px auto;
+  max-width: 800px;
+  border-radius: 20px;
+}
+
+.temperature {
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+.degrees {
+  font-size: 18px;
+  position: relative;
+  top: -20px;
+  right: 15px;
+}
+
+#search-form {
+    border-radius: 15px;
+}
