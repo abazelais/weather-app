@@ -55,4 +55,5 @@ li {
 #github {
   text-align: right;
   margin: 0 auto;
+  display: inline;
 }
