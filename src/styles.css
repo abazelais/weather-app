@@ -34,7 +34,20 @@ li {
   max-width: 800px;
   border-radius: 20px;
 }
+.main-info-view {
+  margin-bottom: 25px;
+}
 
+.image-icon img {
+  margin-right: 15px;
+  height: 64px;
+  width: 64px;
+  margin-bottom: 20px;
+}
+
+.image-icon .degrees {
+  position: relative;
+}
 .temperature {
   font-size: 60px;
   margin-bottom: 15px;
@@ -46,12 +59,18 @@ li {
   right: 15px;
 }
 
-#search-form {
-    border-radius: 15px;
-}
-
 .github {
   text-align: center;
   margin: 0 auto;
   display: block;
+}
+
+#temperature {
+  color:#31a5ba;
+  font-size:64px;
+  font-weight:400;
+  line-height:1;
+}
+#search-form {
+    border-radius: 15px;
 }

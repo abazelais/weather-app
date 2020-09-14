@@ -17,30 +17,35 @@
 <body>
     <div class="container">
         <div class="weather-app">
+            <div class="main-info-view">
+
+                <h1 id="city">
+                    Methuen, MA
+                </h1>
                 
-            <h1 id="city">
-                Methuen, MA
-            </h1>
+                <ul>
+                    <li id="date"></li>
+                    <li id="weather-description">
+                        Clear
+                    </li>
+                </ul>
             
-            <ul>
-                <li id="date"></li>
-                <li id="weather-description">
-                    Clear
-                </li>
-            </ul>
-            
+            </div>
             <div class="row">
                 <div class="col-6">
-                    <img src="https://ssl.gstatic.com/onebox/weather/64/sunny.png" alt="Sunny">
-                   <span class="temperature" id="temperature">
-                        <span class="degrees">
-                            <a href="#" id="fahrenheit-link">°F</a>|
-                            <a href="#" id="celsius-link">°C</a>
-                        </span>
-                        
-                   </span>
-                    
-                    
+                    <div class="clearfix image-icon">
+                        <img src="https://ssl.gstatic.com/onebox/weather/64/sunny.png" alt="Sunny" class="float-left">
+                        <div class="float-left">
+
+                            <span class="temperature" id="temperature">
+                                <span class="degrees">
+                                    <a href="#" id="fahrenheit-link">°F</a>|
+                                    <a href="#" id="celsius-link">°C</a>
+                                </span>
+                            </span>
+
+                        </div>
+                    </div>
                 </div>
                 <div class="col-6">
                     <ul>
