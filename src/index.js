@@ -24,6 +24,8 @@ function displayWeatherInfo(response) {
    document.querySelector("#wind").innerHTML = Math.round(response.data.wind.speed);
 
 }
+
+//function to display search results.
 function searchCity(event) {
     event.preventDefault();
 

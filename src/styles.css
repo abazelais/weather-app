@@ -1,14 +1,15 @@
 body {
-  font-family: "Finger Paint", cursive;
+  font-family: 'Delius Unicase', cursive;
   color: #31a5ba;
 }
 
 h1 {
   color: #e9c4f8;
   display: block;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 200px;
   line-height: 29px;
+  margin-top: 20px;
 }
 
 ul {
@@ -39,7 +40,7 @@ li {
 }
 
 .image-icon img {
-  margin-right: 15px;
+  margin-right: 5px;
   height: 64px;
   width: 64px;
   margin-bottom: 20px;
