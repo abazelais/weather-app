@@ -16,15 +16,22 @@ function formattedDate(date) {
 }
 //function for search form.
 function displayWeatherInfo(response) {
-   
-   document.querySelector("#city").innerHTML = response.data.name;
-   document.querySelector("#temperature").innerHTML = Math.round(response.data.main.temp);
-   document.querySelector("#weather-description").innerHTML = response.data.weather[0].main;
-   document.querySelector("#humidity").innerHTML = response.data.main.humidity;
-   document.querySelector("#wind").innerHTML = Math.round(response.data.wind.speed);
-   document.querySelector("#icon").setAttribute("src", `https://http://openweathermap.org/img/wn/02n@2x.png`);
-
-}
+    let tempElement = document.querySelector("#temperature");
+    let cityElement = document.querySelector("#city");
+    let descriptionElement = document.querySelector("#weather-description");
+    let humidity = document.querySelector("#humidity");
+    let wind = document.querySelector("#wind");
+    let iconElement = document.querySelector("#icon");
+  
+    tempElement.innerHTML = Math.round(response.data.main.temp);
+    cityElement.innerHTML = response.data.name;
+    descriptionElement.innerHTML = response.data.weather[0].main;
+    humidity.innerHTML = response.data.main.humidity;
+    wind.innerHTML = Math.round(response.data.wind.speed);
+    iconElement.setAttribute(
+      "src",
+      `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`);
+  }
 
 //function to display search results.
 function searchCity(event) {
