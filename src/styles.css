@@ -1,6 +1,6 @@
 body {
   font-family: 'Delius Unicase', cursive;
-  color: #7c8f92;
+  color: #07189D;
 }
 
 h1 {
@@ -35,6 +35,8 @@ li {
   max-width: 800px;
   border-radius: 20px;
 }
+
+
 .main-info-view {
   margin-bottom: 25px;
 }
