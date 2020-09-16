@@ -76,6 +76,11 @@ li {
   display: block;
 }
 
+.forecast #weather-forecast {
+  color: #fff;
+  font-size: small;
+}
+
 #temperature {
   color:#e9c4f8;
   font-size:64px;
@@ -85,9 +90,4 @@ li {
 }
 #search-form {
     border-radius: 15px;
-}
-
-#weather-forecast {
-  color: #fff;
-  font-size: small;
 }

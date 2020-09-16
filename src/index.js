@@ -62,8 +62,8 @@ function displayForecast(response) {
             <h3> 
                 ${forecastHours(forecast.dt * 1000)} 
             </h3>
-            <img>
-                src="https://openweathermap.org/img/wn/${forecast.weather[index].icon}@2x.png";
+            <img
+                src="https://openweathermap.org/img/wn/${forecast.weather[0].icon}@2x.png";
             / >
                 <div class="three-hour-forecast">
                     <strong>
