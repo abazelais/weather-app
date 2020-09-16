@@ -29,7 +29,7 @@ li {
 
 .weather-app {
   border: 2px solid;
-  background-image: linear-gradient(to top, #30cfd0 0%, #330867 78%);
+  background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
   padding: 20px;
   margin: 25px auto;
   max-width: 800px;
@@ -85,4 +85,9 @@ li {
 }
 #search-form {
     border-radius: 15px;
+}
+
+#weather-forecast {
+  color: #fff;
+  font-size: small;
 }
