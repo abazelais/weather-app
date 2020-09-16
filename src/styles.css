@@ -53,7 +53,7 @@ li {
 }
 
 .image-icon .active {
-  color: #31a5ba;
+  color: #07189D;
   cursor: default;
 }
 
@@ -68,7 +68,7 @@ li {
 }
 .units {
   font-size: 20px;
-  top: -20px;
+  top: -25px;
   right: 15px;
 }
 
