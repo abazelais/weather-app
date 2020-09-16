@@ -46,17 +46,16 @@ li {
   margin-bottom: 20px;
 }
 
-.image-icon .degrees {
+.image-icon .units {
   position: relative;
 }
 .temperature {
   font-size: 60px;
   margin-bottom: 15px;
 }
-.degrees {
+.units {
   color: #fff;
   font-size: 18px;
-  position: relative;
   top: -20px;
   right: 15px;
 }
@@ -72,6 +71,7 @@ li {
   font-size:64px;
   font-weight:400;
   line-height:1;
+  margin-right: 10px;
 }
 #search-form {
     border-radius: 15px;
