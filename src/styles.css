@@ -49,13 +49,23 @@ li {
 .image-icon .units {
   position: relative;
 }
+
+.image-icon .active {
+  color: #31a5ba;
+  cursor: default;
+}
+
+.image-icon .active:hover {
+ text-decoration: none;
+}
+
+
 .temperature {
   font-size: 60px;
   margin-bottom: 15px;
 }
 .units {
-  color: #fff;
-  font-size: 18px;
+  font-size: 20px;
   top: -20px;
   right: 15px;
 }
@@ -67,7 +77,7 @@ li {
 }
 
 #temperature {
-  color:#31a5ba;
+  color:#e9c4f8;
   font-size:64px;
   font-weight:400;
   line-height:1;
