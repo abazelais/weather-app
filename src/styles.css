@@ -1,6 +1,6 @@
 body {
   font-family: 'Delius Unicase', cursive;
-  color: #31a5ba;
+  color: #7c8f92;
 }
 
 h1 {
@@ -29,9 +29,9 @@ li {
 
 .weather-app {
   border: 2px solid;
-  background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
-  padding: 20px;
+  background-image: linear-gradient(to top, #fcc5e4 0%, #fda34b 15%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%);  
   margin: 25px auto;
+  padding: 20px;
   max-width: 800px;
   border-radius: 20px;
 }
@@ -76,10 +76,6 @@ li {
   display: block;
 }
 
-.forecast #weather-forecast {
-  color: #fff;
-  font-size: small;
-}
 
 #temperature {
   color:#e9c4f8;
@@ -89,5 +85,6 @@ li {
   margin-right: 10px;
 }
 #search-form {
-    border-radius: 15px;
+    border-radius: 20px;
+    margin-left: 10px;
 }
